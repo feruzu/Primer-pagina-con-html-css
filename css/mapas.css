@@ -1,0 +1,33 @@
+.mapa-container h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #bb2525;
+    margin-top: 2%;
+    
+}
+.mapa-container{
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;  
+    
+}
+.mapa-container h2{
+    font-size: 20px;
+}
+.mapa-container img{
+    max-width: 100%;
+    height: auto;
+    box-shadow:  2px 2px 5px #999;
+    margin-top: -1%;
+    display:block;
+    margin:auto;
+}
+.titulo-mapa{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    text-align: center;
+    font-weight:bold;
+}
+
+

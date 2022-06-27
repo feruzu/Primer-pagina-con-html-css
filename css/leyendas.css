@@ -1,0 +1,81 @@
+.octane-container h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    color: #bb2525;
+    margin-top: 5%;
+    text-align: center;
+    border-color: #000000;
+
+}
+.octane-container img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 2.7%;
+    filter: drop-shadow(19px 5px 3px rgba(120, 156, 88, 0.404));
+    float: right; 
+}
+.octane-container{
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+.titulo-leyenda{
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.write-container{
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    margin-top: 20%;
+}
+.write-container img{
+    filter: drop-shadow(19px 5px 3px  rgba(152, 111, 185, 0.404));
+    float: left;
+}
+.lifeline-container{
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    margin-top: 25%;
+}
+.lifeline-container img{
+    filter: drop-shadow(19px 5px 3px  rgba(139, 155, 199, 0.404));
+    float: right;
+
+}
+footer{
+    margin-top: 25%;
+}
+
+/*--------------------- RESPONSIVE -----------------------*/
+@media (max-width:  980px) {
+
+.octane-container img{
+    display:block;
+    margin:auto;
+    margin-top: 4%;
+    float: none;
+}
+
+.titulo-leyenda{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.write-container img{
+    display:block;
+    margin:auto;
+    float: none;
+
+}
+.lifeline-container img{
+    display:block;
+    margin:auto; 
+    float: none;
+}
+
+}
